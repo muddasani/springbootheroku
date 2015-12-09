@@ -1,15 +1,22 @@
 package org.springboot.domain;
 
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class User {
 
-    private String requesterDetails;
+	private String RequesterDetails;
 
-  public User(String requesterDetails) {
-        this.requesterDetails = requesterDetails;
-    }
+	public User() {
+	}
 
-    public String getRequesterDetails() {
-        return this.requesterDetails;
-    }
+	public User(String RequesterDetails) {
+		this.RequesterDetails = RequesterDetails;
+	}
+
+	@JsonProperty("RequesterDetails")
+	public String getTheRequesterDetails() {
+		return this.RequesterDetails;
+	}
 
 }
