@@ -15,7 +15,7 @@ public class UserController {
 
     
     @RequestMapping(value = "/user", method=RequestMethod.GET)
-    public @ResponseBody User getRequesterDetails(@RequestParam(value="email", required=false, defaultValue="rahul.navandar@crest.in") String name) {
+    public @ResponseBody User getRequesterDetails(@RequestParam(value="email", required=false, defaultValue="xyz123@gmail.com") String name) {
         return new User("1239996780");
     }
     
