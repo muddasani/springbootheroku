@@ -4,12 +4,12 @@ public class User {
 
     private String requesterDetails;
 
-  public User(String RequesterDetails) {
+  public User(String requesterDetails) {
         this.requesterDetails = requesterDetails;
     }
 
     public String getRequesterDetails() {
-        return requesterDetails;
+        return this.requesterDetails;
     }
 
 }
