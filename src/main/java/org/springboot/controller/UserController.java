@@ -16,7 +16,7 @@ public class UserController {
     
     @RequestMapping(value = "/user", method=RequestMethod.GET)
     public @ResponseBody User getRequesterDetails(@RequestParam(value="email", required=false, defaultValue="xyz123@gmail.com") String email) {
-        return new User("1239996780");
+        return new User("http://senldogocqs.springer-sbm.com:8003/sap/bc/bsp/sap/crm_ui_start/default.htm?crm-object-type=BP_ACCOUNT&crm-object-action=B&saprole=Z_SALESPRO&crm-object-keyname=PARTNER&crm-object-value=3000000027");
     }
     
 
